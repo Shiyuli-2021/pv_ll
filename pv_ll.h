@@ -34,7 +34,7 @@ typedef struct _pv_ll_t{
 }pv_ll_t;
 
 
-#define pv_ll_for_each(node, ll_p)   for(pv_ll_node_t* node = (ll_p)->head; node != NULL; node = node->next)
+#define pv_ll_for_each(node, ll_p)   for (pv_ll_node_t* node = (ll_p)->head; node != NULL; node = node->next)
 
 void pv_ll_init(pv_ll_t * ll_p);
 
